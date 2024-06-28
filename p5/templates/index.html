@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>p5.js example</title>
+        <style>
+            body {
+                padding: 0;
+                margin: 0;
+                background-color: #1b1b1b;
+            }
+        </style>
+        <script src="{{ url_for('static', filename='p5.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='sketch.js') }}"></script>
+        <script src="{{ url_for('static', filename='p5.play/p5.play.js') }}"></script>
+        <script src="{{ url_for('static', filename='p5.play/planck.min.js') }}"></script>
+        <script src="https://cdn.jsdelivr.net/npm/p5.recorder@0.0.7/dist/p5.recorder.js"></script>
+    <body>
+        <main></main>
+    </body>
+</html>
